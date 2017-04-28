@@ -1,0 +1,14 @@
+#wget http://dl.fedoraproject.org/pub/epel/6/x86_64/dropbear-2014.63-1.el6.x86_64.rpm
+ #wget http://dl.fedoraproject.org/pub/epel/6/x86_64/libtommath-0.42.0-3.el6.x86_64.rpm
+ #rpm -Uvh libtommath*.rpm
+ #wget http://dl.fedoraproject.org/pub/epel/6/x86_64/libtomcrypt-1.17-21.el6.x86_64.rpm
+ #rpm -Uvh libtomcrypt*.rpm
+ #rpm -Uvh dropbear*.rpm
+#yum install nano
+ #nano /etc/init.d/dropbear
+#OPTIONS="-p 443"
+ #nano /etc/ssh/sshd_config
+#service sshd restart
+ #service dropbear start
+#chkconfig --add dropbear
+ #chkconfig dropbear on
